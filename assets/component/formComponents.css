@@ -1,0 +1,36 @@
+@import url('button.css');
+
+form {
+    background-color: white;
+    border-style: solid;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto ;
+    padding-right: auto ;
+
+}
+form div *{
+
+    vertical-align: middle;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    margin: 5px;
+    font-family: 'B Titr';
+  
+    }
+    label {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 200px;
+    }
+    p{
+        font-size: 30px;
+    }
+    text *{
+        vertical-align: middle;
+    }

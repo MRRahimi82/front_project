@@ -1,0 +1,21 @@
+@import url('component/formComponents.css');
+
+:root{
+    --direction : rtl ;
+    --md-sys-color-primary-light: #96480c;
+    --md-sys-color-on-primary-light: #ffffff;
+    --height: 40px;
+    --padding: 0 24px;
+    --rudios: calc( var(--height) / 2 );
+    --align : center;
+    --fontsize : 14px;
+    --fontfamily : 'Roboto' ;
+    --fontfamilybody :  'B Titr';
+}
+body{
+    direction: var(--direction);
+    background-color: rgb(182, 148, 56);
+    font-family: var(--fontfamilybody);
+    text-align: center;
+}
+
