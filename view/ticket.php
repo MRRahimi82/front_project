@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/style.css" type="text/css" rel="stylesheet">
     <link href="../assets/styles.css" type="text/css" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/8347ab5ff9.js" crossorigin="anonymous"></script>
     <title>پشتیبانی</title>
 </head>
 <body>
@@ -40,6 +41,7 @@
             <label for = "textt">متن پیام: </label>
             <textarea name = "text" id = "text"></textarea>
         </div>
+        
             <input type = "submit" value = "ارسال" class="btn">
         </form>
       

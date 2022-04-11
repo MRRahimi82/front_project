@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="../assets/style.css" type="text/css" rel="stylesheet">
     <link href="../assets/styles.css" type="text/css" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/8347ab5ff9.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>فرم ثبت نام</title>
     <style>
@@ -33,7 +34,7 @@
             <input type = "email" name = "email" id = "email">
         </div>
         
-        <button type="submit" name = "submit" class="btn"> ثبت نام کاربر</button>
+        <button type="submit" name = "submit" class="btn"><i class="fa-solid fa-heart"></i>  ثبت نام کاربر</button>
     </form>
 </body>
 </html>

@@ -1,7 +1,10 @@
 @import url('component/formComponents.css');
+@import url('styles.css');
+
 
 :root{
     --direction : rtl ;
+    --md-sys-color-background-light: rgb(182, 148, 56);
     --md-sys-color-primary-light: #96480c;
     --md-sys-color-on-primary-light: #ffffff;
     --height: 40px;
@@ -11,10 +14,13 @@
     --fontsize : 14px;
     --fontfamily : 'Roboto' ;
     --fontfamilybody :  'B Titr';
+    --border-bottom-left-radius : 30px ;
+    --border-bottom-right-radius : 30px ;
+    --border-style : solid ;
 }
 body{
     direction: var(--direction);
-    background-color: rgb(182, 148, 56);
+    background-color:var( --md-sys-color-background-light) ;
     font-family: var(--fontfamilybody);
     text-align: center;
 }

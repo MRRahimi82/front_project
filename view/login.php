@@ -6,6 +6,7 @@
     <link href="../assets/style.css" type="text/css" rel="stylesheet">
     <link href="../assets/styles.css" type="text/css" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8347ab5ff9.js" crossorigin="anonymous"></script>
     <title> ناحیه کاربری</title>
     
 </head>
@@ -23,8 +24,8 @@
             <label for="pass"> رمز عبور </label>
             <input type="password" name="pass" id="pass" placeholder="Mr12345" >
         </div>
-        <button type="submit" name="submit" class="btn">ورود</button>
-        <button type="reset" name="reset" class="btn">جدید</button>
+        <button type="submit" name="submit" class="btn"><i class="fa-solid fa-heart"></i> ورود</button>
+        <button type="reset" name="reset" class="btn"><i class="fa-solid fa-heart"></i> جدید</button>
         <br>
         <a href=""> فراموشی رمز عبور</a>
     </form>
