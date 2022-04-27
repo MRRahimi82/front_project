@@ -9,8 +9,8 @@
     <link href="../assets/styles.css" type="text/css" rel="stylesheet"> 
 </head>
 <body>
-    <?php
-    echo ("<p>{$row['fullname']} خوش آمدید<p>") ;
-    ?>
+    
+        <a href="../logout.php"> خروج از حساب کاربری</a>
+        
 </body>
 </html>

@@ -31,4 +31,8 @@ form div *{
     p{
         font-size: 30px;
     }
+    textarea{
+        text-align: center;
+        width: 100%;
+    }
     

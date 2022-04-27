@@ -8,6 +8,15 @@
     <link href="../assets/style.css" type="text/css" rel="stylesheet">
     <link href="../assets/styles.css" type="text/css" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/8347ab5ff9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tiny.cloud/1/bs07emqnwxld8r280r6rdeb6x74p6gpe9gy7115ctvh6cgfn/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+          selector: 'textarea#about_product',
+          plugins: 'directionality',
+          toolbar: 'rtl ltr',
+          language: 'fa' ,
+       });
+</script>
 
 </head>
 <body>

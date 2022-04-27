@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="../assets/style.css" type="text/css" rel="stylesheet">
-    <link href="../assets/styles.css" type="text/css" rel="stylesheet"> 
+    <link href="assets/style.css" type="text/css" rel="stylesheet">
+    <link href="assets/styles.css" type="text/css" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8347ab5ff9.js" crossorigin="anonymous"></script>
     <title> ناحیه کاربری</title>
@@ -13,7 +13,7 @@
 <body>
     <p> فروشگاه کیف و کفش رحیمی</p>
     <h1>ناحیه کاربری</h1>
-    <form action="../login.php" method="post">
+    <form action="login.php" method="post">
 
         <div>
             <label for="usern">نام کاربری </label>
