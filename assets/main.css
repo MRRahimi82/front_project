@@ -7,6 +7,7 @@
     --md-sys-color-background-light: rgb(182, 148, 56);
     --md-sys-color-primary-light: #96480c;
     --md-sys-color-on-primary-light: #ffffff;
+    --md-sys-color-outline-light: #85746b;
     --height: 40px;
     --padding: 0 24px;
     --rudios: calc( var(--height) / 2 );

@@ -17,3 +17,9 @@ line-height: calc( var(--height) - 2px );
     
     vertical-align: middle;
 }
+.btn.Outlined{
+    background-color: white;
+    color: var(--primary);
+    border: 1px solid ;
+    border-color: var(--md-sys-color-outline-light);  
+    }

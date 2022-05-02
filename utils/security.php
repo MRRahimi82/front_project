@@ -1,4 +1,6 @@
+
 <?php
+include ('../lib/db.php');
 session_start();
 class Authentication{
     static function login( $uid ){        
@@ -18,7 +20,28 @@ class Authentication{
     }
 }
 class Authorization{
-
+	static private function getUserRole(){
+		$uid = Authentication::uid();
+		// todo: get user role from db and return
+	}
+    static function checkRole( $role ){ // Authorization :: checkRole('admin')
+        if( ! Authentication :: check() )
+        {
+            return false;
+        }
+         $dbc = new DB ( 'localhost', 'root', '', 'bags');  
+         $sql = "SELECT FROM user WHERE id = ? ";
+         $result= $dbc > query($sql,Authentication :: uid());
+         $row= $result -> fetchArray();
+         $dbc -> close();
+         if($row['role'] == $role)
+         {
+              return true;
+         }
+         else{
+             return false;
+         }
+        return self::getUserRole() == $role;
+    }
 }
-
 ?>
