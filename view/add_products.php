@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>افزودن محصول</title>
-    <link href="../assets/style.css" type="text/css" rel="stylesheet">
-    <link href="../assets/styles.css" type="text/css" rel="stylesheet"> 
+    <link href="assets/style.css" type="text/css" rel="stylesheet">
+    <link href="assets/styles.css" type="text/css" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/8347ab5ff9.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tiny.cloud/1/bs07emqnwxld8r280r6rdeb6x74p6gpe9gy7115ctvh6cgfn/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     <script>

@@ -1,6 +1,6 @@
 
 <?php
-include ('../lib/db.php');
+
 session_start();
 class Authentication{
     static function login( $uid ){        
@@ -29,7 +29,7 @@ class Authorization{
         {
             return false;
         }
-         $dbc = new DB ( 'localhost', 'root', '', 'bags');  
+         $dbc = new mysqli ( 'localhost', 'root', '', 'bags');  
          $sql = "SELECT FROM user WHERE id = ? ";
          $result= $dbc > query($sql,Authentication :: uid());
          $row= $result -> fetchArray();
@@ -40,8 +40,8 @@ class Authorization{
          }
          else{
              return false;
+             echo "sdasd" ; 
          }
-        return self::getUserRole() == $role;
     }
 }
 ?>

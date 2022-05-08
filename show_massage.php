@@ -2,15 +2,16 @@
 include ('settings.php');
 include ('lib/db.php');
 include ('utils/security.php');
+if( ! Authorization :: checkRole('admin') ){
+
 
 $dbc = new DB( $dbHost, $dbUser, $dbPass, $dbName);
-$sql = "SELECT * FROM products
-        ORDER BY code_product DESC
-        LIMIT 10";
+$sql = "SELECT * FROM message
+        ORDER BY id DESC ";
 $result = $dbc -> query( $sql );
-$products = $dbc -> fetchAll();
+$massages = $dbc -> fetchAll();
 $dbc -> close();
 
-include 'view/show_product.php'
+include ('view/show_massage.php');
+   }
 ?>
-

@@ -1,7 +1,13 @@
 <?php
-
 include ('settings.php');
 include ('lib/db.php');
+include ('utils/security.php');
+
+if( ! Authorization :: checkRole('admin') ){
+  
+
+
+
 if( isset( $_POST['submit'] ) ){
  $id = $_GET['id'];
 $dbc = new DB ( $dbHost, $dbUser, $dbPass, $dbName);
@@ -47,6 +53,7 @@ else{
    
     include ('view/edit_user.php');
 
+}
 }
 
 

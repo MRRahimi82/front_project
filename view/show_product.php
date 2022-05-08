@@ -18,7 +18,7 @@
         }
         else{
             foreach( $products as $product ){          
-                include 'product_card.php';
+                include 'template/product_card.php';
             }
         }
     ?>
