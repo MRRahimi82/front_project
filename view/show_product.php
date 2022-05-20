@@ -10,7 +10,7 @@
    
 </head>
 <body>
-    <h1>محصولات</h1>
+    <h1 class = "display">محصولات</h1>
     <div class="cards">
     <?php
         if( count( $products ) == 0 ){
