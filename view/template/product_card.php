@@ -1,9 +1,10 @@
+
 <article>
     
     <div class="card_Filled">
         <img class="img" src = '<?php echo $product['image_product']; ?>'>
         <div class="card-body">
-            <h3 class="card-title">
+            <h3 class="card-title ">
                 <a href="product-details.php?code_product=<?php echo $product['code_product']; ?>">
                 <?php echo $product['name_product']; ?>
                 </a>

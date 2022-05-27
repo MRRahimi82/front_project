@@ -6,11 +6,7 @@ body{
 
 }
 
-.cards{
-    display: grid;
-    gap: 8px;
-    grid-template-columns:  auto auto auto  ;
-}
+
 .card_Filled{
     background-color: #f4ded3;
     font-family: B yekan,Arial, Helvetica, sans-serif;
